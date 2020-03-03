@@ -15,7 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login.SignUp"></activity>
+        <activity android:name=".Login.weather"/>
+
+        <activity android:name=".Login.SignUp" />
         <activity android:name=".Login.Screens" />
         <activity android:name=".Login.Utilities" />
         <activity android:name=".Login.worldClock" />
@@ -39,3 +41,5 @@
     </application>
 
 </manifest>
+
+<!--<activity android:name=".Login.weatherActivit" />-->

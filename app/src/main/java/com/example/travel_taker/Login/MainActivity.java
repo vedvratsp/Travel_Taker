@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         emailtext =findViewById(R.id.emailLogin);
-        button = (SignInButton)findViewById(R.id.gsignin);
+        button = findViewById(R.id.gsignin);
         mAuth = FirebaseAuth.getInstance();
 
         emailtext.setOnClickListener(new View.OnClickListener() {
@@ -73,6 +73,11 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
+
+//        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//                .requestIdToken(getString(R.string.default_web_client_id))
+//                .requestEmail()
+//                .build();
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))

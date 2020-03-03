@@ -13,7 +13,7 @@ import com.example.travel_taker.R;
 
 public class Utilities extends AppCompatActivity {
 
-    Button todo,clock,currency;
+    Button todo,clock,currency,weather;
     TextView tv;
 
     @Override
@@ -24,7 +24,7 @@ public class Utilities extends AppCompatActivity {
         todo = findViewById(R.id.Todo);
         clock = findViewById(R.id.worldC);
         currency = findViewById(R.id.CurrencyConv);
-
+        weather = findViewById(R.id.weather);
 
         clock.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,6 +38,13 @@ public class Utilities extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Utilities.this , CurrencyConverter.class);
+                startActivity(i);
+            }
+        });
+        weather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Utilities.this , weather.class);
                 startActivity(i);
             }
         });
