@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Travel_Taker</string>
+    <string name="add_new_location">Add new location</string>
+    <string name="location_list">Locations</string>
+    <string name="need_location_permission_message">You need to enable location permissions first</string>
+    <string name="location_permissions_granted_message">Location Permissions Granted</string>
+    <string name="setting_enabled" translatable="false">EnabledSetting</string>
+    <string name="settings_label">Settings</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="enable_geofences">Enable Geofences</string>
+    <string name="privacy">http://www.google.com/policies/privacy</string>
+    <string name="ringer_permissions">Ringer Permissions</string>
+    <string name="silent_mode_activated">Silent mode activated</string>
+    <string name="touch_to_relaunch">Touch to launch the app.</string>
+    <string name="back_to_normal">Back to normal</string>
+    <string name="Succ_register">Succussfully Registered Thank You for using Travel Taker</string>
+
+
+    <string name="title_todo_detail">ToDo Detail</string>
+    <string name="title_edit_todo_detail">Edit ToDo Detail</string>
+    <string name="title_created_todo_detail">Create ToDo Detail</string>
+    <string name="facebook_application_id" translatable="false">403878970424703</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb403878970424703</string>
+    <string name="signout">SignOut</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_description">Enter description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="create_new_todo_title">Create new Todo</string>
+    <string name="sign_out_title">Sign Out</string>
+    <string name="sign_out_question">Do you want to sign out?</string>
+    <string name="completed">Completed</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="db_error_msg">Failed to load post.</string>
+    <string name="title_error_msg">Title must not be empty</string>
+    <string name="description_error_msg">Description must not be empty</string>
+
+
+<!--    Twitter-->
+
+
+    <string name="input_search_terms">Search...</string>
+
+    <string name="base_url">https://api.twitter.com/</string>
+    <string name="consumer_key">Xkg8shf0G5Y893Q3wVwY0xaic</string>
+    <string name="consumer_secret">1ujUA65iZZDtHV5XYMe7zoI9gDFB6S1CabOujpDYay9orwyDMc</string>
+
+    <string name="seconds">%1$d seconds ago</string>
+    <string name="minutes">%1$d minutes ago</string>
+    <string name="hours">%1$d hours ago</string>
+    <string name="days">%1$d days ago</string>
+
+    <string name="help_title">Welcome to Twitter Search.</string>
+    <string name="help_subtitle">Try searching something!</string>
+
+    <string name="empty_title">No tweets were found!</string>
+    <string name="empty_subtitle">Please, try with a different search.</string>
+
+    <string name="error_title">There was an error loading the tweets.</string>
+    <string name="error_subtitle">Please retry!</string>
+
+</resources>
