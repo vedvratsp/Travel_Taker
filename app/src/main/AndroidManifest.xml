@@ -15,28 +15,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login.MydoesUpdate"></activity>
+        <activity
+            android:name=".drawer"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Login.MainActivity" />
+        <activity android:name=".Login.MydoesUpdate" />
         <activity android:name=".Login.SetAlarmActivity" />
         <activity android:name=".Login.NewTaskActivity" />
         <activity android:name=".Login.Todoss" />
         <activity android:name=".Login.SignUp" />
         <activity android:name=".Login.Screens" />
         <activity android:name=".Login.Utilities" />
+        <activity android:name=".Login.QuotesActiviy" />
         <activity android:name=".Login.worldClock" />
-        <activity android:name=".Login.Twitter.TwitterMainActivity"/>
+        <activity android:name=".Login.News.News"/>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:hardwareAccelerated="true"
+            android:name=".Login.HotelFlightActivity"/>
+        <activity android:name=".Login.Twitter.TwitterMainActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDIcQK4yk4C4fYPnrMUmVW0BpZgw3v8iyU" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".Login.passForgotActivity" />
         <activity android:name=".Login.Home" />
         <activity android:name=".Login.Login" />
         <activity android:name=".Login.MapsActivity" />
         <activity android:name=".Login.CurrencyConverter.CurrencyConverter" />
-        <activity android:name=".Login.Twitter.SearchFragment"/>
-        <activity android:name=".Login.weather"/>
-        <activity android:name=".Login.MainActivity">
+        <activity android:name=".Login.Twitter.SearchFragment" />
+        <activity android:name=".Login.weather" />
+        <activity android:name=".Login.splashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

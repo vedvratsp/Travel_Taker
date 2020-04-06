@@ -3,18 +3,18 @@ package com.example.travel_taker.Login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.travel_taker.Login.CurrencyConverter.CurrencyConverter;
-import com.example.travel_taker.Login.Twitter.TwitterMainActivity;
+import com.example.travel_taker.Login.News.News;
 import com.example.travel_taker.R;
 
 public class Utilities extends AppCompatActivity {
 
-    Button todo,clock,currency,tweets, weather;
+    ImageButton todo,clock,currency,news, weather,quotes;
     TextView tv;
 
     @Override
@@ -25,8 +25,9 @@ public class Utilities extends AppCompatActivity {
         todo = findViewById(R.id.Todo);
         clock = findViewById(R.id.worldC);
         currency = findViewById(R.id.CurrencyConv);
-        tweets = findViewById(R.id.twitter_btn);
+        news = findViewById(R.id.news_btn);
         weather = findViewById(R.id.weather);
+        quotes = findViewById(R.id.Quotes);
 
         todo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,10 +53,10 @@ public class Utilities extends AppCompatActivity {
             }
         });
 
-        tweets.setOnClickListener(new View.OnClickListener() {
+        news.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Utilities.this , TwitterMainActivity.class);
+                Intent i = new Intent(Utilities.this , News.class);
                 startActivity(i);
             }
         });
@@ -63,6 +64,14 @@ public class Utilities extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Utilities.this , weather.class);
+                startActivity(i);
+            }
+        });
+
+        quotes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Utilities.this , QuotesActiviy.class);
                 startActivity(i);
             }
         });

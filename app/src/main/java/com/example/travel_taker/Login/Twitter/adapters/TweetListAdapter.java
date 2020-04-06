@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bumptech.glide.Glide;
 import com.example.travel_taker.Login.Twitter.models.Tweet;
 import com.example.travel_taker.Login.Twitter.models.TweetDateFormatter;
 import com.example.travel_taker.R;
@@ -48,11 +47,11 @@ public class TweetListAdapter extends AnimatedRecyclerViewAdapter<TweetListAdapt
         holder.username.setText(tweet.getUsername());
         String imageUrl = tweet.getImageUrl();
         if (TextUtils.isEmpty(imageUrl)) {
-            holder.imageView.setVisibility(View.GONE);
-        } else {
-            Glide.with(mContext).load(imageUrl).centerCrop().into(holder.imageView);
-            holder.imageView.setVisibility(View.VISIBLE);
-        }
+            holder.imageView.setVisibility(View.GONE);}
+//        } else {
+//            Glide.with(mContext).load(imageUrl).centerCrop().into(holder.imageView);
+//            holder.imageView.setVisibility(View.VISIBLE);
+//        }
     }
 
     @Override
@@ -69,10 +68,10 @@ public class TweetListAdapter extends AnimatedRecyclerViewAdapter<TweetListAdapt
 
         public ViewHolder(View itemView) {
             super(itemView);
-            username = (TextView) itemView.findViewById(R.id.usernameTextView);
-            createdAt = (TextView) itemView.findViewById(R.id.createdAtTextView);
-            content = (TextView) itemView.findViewById(R.id.contentTextView);
-            imageView = (ImageView) itemView.findViewById(R.id.imageView);
+            username = itemView.findViewById(R.id.usernameTextView);
+            createdAt = itemView.findViewById(R.id.createdAtTextView);
+            content = itemView.findViewById(R.id.contentTextView);
+            imageView = itemView.findViewById(R.id.imageView);
         }
     }
 }

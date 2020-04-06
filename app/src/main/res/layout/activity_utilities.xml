@@ -15,69 +15,231 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:textAlignment="center"
         android:text="Welcome, Play around the utilities"/>
 
-    <Button
-        android:id="@+id/worldC"
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/round_button"
-        android:text="World Clock" />
+        android:orientation="vertical"
+        android:padding="20dp">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/CurrencyConv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/round_button"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:text="Currency Converter" />
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cv"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                card_view:cardCornerRadius="4dp">
 
-    <Button
-        android:id="@+id/Todo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/round_button"
-        android:text="Check List" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
+                    <ImageButton
+                        android:id="@+id/worldC"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#FFFFFF"
+                        android:src="@drawable/worldclock"/>
 
+                    <TextView
+                        android:id="@+id/hotelw"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="World Clock"
+                        android:textSize="25dp"
+                        android:textAlignment="center"/>
 
-    <Button
-        android:id="@+id/weather"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/round_button"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:text="Weather" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv1"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="4dp">
 
-    <Button
-        android:id="@+id/twitter_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/round_button"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:text="Tweets 'n' Feeds" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/CurrencyConv"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#FFFFFF"
+                        android:src="@drawable/convertor" />
+
+                    <TextView
+                        android:id="@+id/hotelw2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Convertor"
+                        android:textSize="25dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv2"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/Todo"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#FFFFFF"
+                        android:src="@drawable/todo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:text="Todo List"
+                        android:textAlignment="center"
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cv4"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                card_view:cardCornerRadius="4dp"
+                android:layout_marginLeft="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/weather"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#FFFFFF"
+                        android:src="@drawable/weather"/>
+
+                    <TextView
+                        android:id="@+id/hotel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Weather"
+                        android:textSize="25dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv5"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/news_btn"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#FFFFFF"
+                        android:src="@drawable/news" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="World NEWS"
+                        android:textSize="25dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cv6"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="10dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/Quotes"
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:background="#FFFFFF"
+                        android:src="@drawable/dailyquotes"/>
+
+                    <TextView
+                        android:id="@+id/hotelw5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Quotes"
+                        android:textSize="25dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

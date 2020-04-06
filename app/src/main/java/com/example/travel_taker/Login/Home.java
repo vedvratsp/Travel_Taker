@@ -3,7 +3,6 @@ package com.example.travel_taker.Login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
@@ -19,7 +18,7 @@ import com.uber.sdk.rides.client.SessionConfiguration;
 import java.util.Arrays;
 
 public class Home extends AppCompatActivity {
-    ImageButton logOut, utility;
+    ImageButton logOut, utility,place,flight,hotel;
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
@@ -28,8 +27,10 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         utility =findViewById(R.id.UtilityWidget);
-        ImageButton logOut = findViewById(R.id.logOut);
-        ImageButton place = findViewById(R.id.place);
+         logOut = findViewById(R.id.logOut);
+         place = findViewById(R.id.place);
+      //  flight = findViewById(R.id.plane1);
+        hotel = findViewById(R.id.hotel1);
 
         SessionConfiguration config = new SessionConfiguration.Builder()
                 .setClientId("89jvi1QQQ7YNUb02WJI_AeiMlqrqJdw-")
@@ -60,6 +61,15 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Home.this , MapsActivity.class);
+                startActivity(i);
+            }
+        });
+
+
+        hotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Home.this , HotelFlightActivity.class);
                 startActivity(i);
             }
         });

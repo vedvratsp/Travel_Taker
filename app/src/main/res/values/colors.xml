@@ -10,6 +10,8 @@
     <color name="green">#9BC768</color>
     <color name="darkgrey">#A2A0A0</color>
 
+    <color name="sky">#F8FDFD</color>
+
 
 
     <color name="primaryColor">#42a5f5</color>
@@ -32,4 +34,14 @@
     <color name="textLightDisabledDEPRECATED">#4CFFFFFF</color> <!--4C for %30 opacity-->
 
     <color name="black_overlay">#66000000</color>
+
+<!--    news-->
+    <color name="colorBackground">#f9f9fa</color>
+<color name="colorTextSubtitle">#4e4e4e</color>
+<color name="colorTextTitle">#262626</color>
+
+<!--    CC-->
+    <color name="red">#D73A31</color>
+    <color name="peach">#FA898A</color>
+
 </resources>

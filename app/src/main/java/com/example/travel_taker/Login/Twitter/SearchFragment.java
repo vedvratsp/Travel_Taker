@@ -65,7 +65,7 @@ public class SearchFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        mTweetsRecyclerView = (RecyclerView) view.findViewById(R.id.tweetsRecyclerView);
+        mTweetsRecyclerView = view.findViewById(R.id.tweetsRecyclerView);
         setupTweetListView();
 
         mLoadingView = view.findViewById(R.id.loadingLogo);

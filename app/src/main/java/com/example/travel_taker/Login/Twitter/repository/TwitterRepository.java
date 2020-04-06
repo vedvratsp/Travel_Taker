@@ -15,6 +15,7 @@ import com.google.gson.GsonBuilder;
 
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
+import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.List;
 
@@ -110,15 +111,11 @@ public class TwitterRepository {
     }
 
     private String getAuthorizationHeader() {
-        try {
-            String consumerKeyAndSecret = mConsumerKey + ":" + mConsumerSecret;
-            byte[] data = consumerKeyAndSecret.getBytes("UTF-8");
-            String base64 = Base64.encodeToString(data, Base64.NO_WRAP);
+        String consumerKeyAndSecret = mConsumerKey + ":" + mConsumerSecret;
+        byte[] data = consumerKeyAndSecret.getBytes(StandardCharsets.UTF_8);
+        String base64 = Base64.encodeToString(data, Base64.NO_WRAP);
 
-            return "Basic " + base64;
-        } catch (UnsupportedEncodingException e) {
-            return null;
-        }
+        return "Basic " + base64;
     }
 
 
