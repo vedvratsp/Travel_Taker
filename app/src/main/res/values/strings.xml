@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Travel_Taker</string>
+    <string name="add_new_location">Add new location</string>
+    <string name="location_list">Locations</string>
+    <string name="need_location_permission_message">You need to enable location permissions first</string>
+    <string name="location_permissions_granted_message">Location Permissions Granted</string>
+    <string name="setting_enabled" translatable="false">EnabledSetting</string>
+    <string name="settings_label">Settings</string>
+    <string name="location_permissions">Location Permissions</string>
+    <string name="enable_geofences">Enable Geofences</string>
+    <string name="privacy">http://www.google.com/policies/privacy</string>
+    <string name="ringer_permissions">Ringer Permissions</string>
+    <string name="silent_mode_activated">Silent mode activated</string>
+    <string name="touch_to_relaunch">Touch to launch the app.</string>
+    <string name="back_to_normal">Back to normal</string>
+    <string name="Succ_register">Succussfully Registered Thank You for using Travel Taker</string>
+
+
+    <string name="title_todo_detail">ToDo Detail</string>
+    <string name="title_edit_todo_detail">Edit ToDo Detail</string>
+    <string name="title_created_todo_detail">Create ToDo Detail</string>
+    <string name="facebook_application_id" translatable="false">403878970424703</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb403878970424703</string>
+    <string name="signout">SignOut</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_description">Enter description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="create_new_todo_title">Create new Todo</string>
+    <string name="sign_out_title">Sign Out</string>
+    <string name="sign_out_question">Do you want to sign out?</string>
+    <string name="completed">Completed</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="db_error_msg">Failed to load post.</string>
+    <string name="title_error_msg">Title must not be empty</string>
+    <string name="description_error_msg">Description must not be empty</string>
+    
+    
+    <string-array name="quotes">
+
+        <item>The man who follows the crowd will usually get no further than the crowd. The man who walks alone is likely to find himself in places no one has ever been before. – Alan Ashley-Pitt </item>
+
+        <item>I have found out that there ain’t no surer way to find out whether you like people or hate them than to travel with them. — Mark Twain </item>
+
+        <item> It is through the voice of one crying in the wilderness that the ways of the gods must be prepared. – Oscar Wilde </item>
+
+        <item>There are some places in life where you can only go alone. Embrace the beauty of your solo journey. — Mandy Hale </item>
+
+        <item>The more I travelled the more I realised that fear makes strangers of people who should be friends. – Shirley MacLaine </item>
+
+        <item>“It seemed an advantage to be traveling alone. Our responses to the world are crucially moulded by the company we keep, for we temper our curiosity to fit in with the expectations of others…Being closely observed by a companion can also inhibit our observation of others; then, too, we may become caught up in adjusting ourselves to the companion’s questions and remarks, or feel the need to make ourselves seem more normal than is good for our curiosity.  – Alain de Botton </item>
+
+        <item>The man who goes alone can start today, but he who travels with another must wait till that other is ready. — Henry David Thoreau </item>
+
+        <item> Some journeys in life can only be traveled alone. – Ken Poirot </item>
+
+        <item>I am never happier than when I am alone in a foreign city; it is as if I had become invisible. — Storm Jameson </item>
+
+        <item>Nobody can discover the world for somebody else. Only when we discover it for ourselves does it become common ground and a common bond and we cease to be alone. – Wendell Berry </item>
+
+        <item>Travel only with thy equals or thy betters; if there are none, travel alone. — The Dhammapada </item>
+
+        <item>I think one travels more usefully when they travel alone, because they reflect more. — Thomas Jefferson </item>
+
+        <item>Don’t be scared to walk alone. Don’t be scared to like it. — John Mayer </item>
+
+        <item>Through travel I first became aware of the outside world; it was through travel that I found my own introspective way into becoming a part of it. – Eudora Welty </item>
+
+        <item>To awaken quite alone in a strange town is one of the most pleasant sensations in the world. You are surrounded by adventure. </item>
+
+        <item>I learned my strengths and my weaknesses. I experienced the exhilaration of the ups and the despairs of the lows and most of the feelings in between… I learned courage and I learned it myself – Ann Stirk </item>
+
+        <item>The most important relationship in your life is the relationship you have with yourself. Because no matter what happens, you will always be with yourself. </item>
+
+        <item>It’s a long ride home with nothing but me for company. I bore myself sometimes. Not often. Just now and again. ― David Hewson </item>
+
+    </string-array>
+
+</resources>

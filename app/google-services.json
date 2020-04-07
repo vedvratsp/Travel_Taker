@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "64757752564",
+    "firebase_url": "https://traveltaker-a4f6e.firebaseio.com",
+    "project_id": "traveltaker-a4f6e",
+    "storage_bucket": "traveltaker-a4f6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64757752564:android:8e52a5224d085ab72c74a1",
+        "android_client_info": {
+          "package_name": "com.example.travel_taker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64757752564-1lo9aku9hjvrsja2re3f94v77kbu7rk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travel_taker",
+            "certificate_hash": "8d19ef68652cdda80f2d3fa5d7cf0cb12beff945"
+          }
+        },
+        {
+          "client_id": "64757752564-lvd088isgode0al13jhjaio3rf5v9tvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZMr2PFuOHWgA5-4qrYWlIoJlCJ9nNcA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64757752564-lvd088isgode0al13jhjaio3rf5v9tvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

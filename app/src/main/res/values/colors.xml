@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0A79AC</color>
+    <color name="colorPrimaryDark">#086792</color>
+    <color name="colorAccent">#89D2F3</color>
+
+
+    <color name="blue">#ADD8EC</color>
+    <color name="grey">#94DDDBDB</color>
+    <color name="green">#9BC768</color>
+    <color name="darkgrey">#A2A0A0</color>
+
+
+
+    <color name="primaryColor">#42a5f5</color>
+    <color name="primaryLightColor">#80d6ff</color>
+    <color name="primaryDarkColor">#0077c2</color>
+    <color name="secondaryColor">#ffb74d</color>
+    <color name="secondaryLightColor">#ffe97d</color>
+    <color name="secondaryDarkColor">#c88719</color>
+
+
+    <!-- Dark Text Color for Light Background -->
+    <color name="textDarkPrimary">#DE000000</color> <!--DE for %87 opacity-->
+    <color name="textDarkSecondary">#8A000000</color> <!--8A for %54 opacity-->
+    <color name="textDarkDisabled">#61000000</color> <!--61 for %38 opacity-->
+
+    <!-- White Text Color for Dark Background -->
+    <color name="textLightPrimary">#FFFFFF</color> <!--%100 opacity-->
+    <color name="textLightSecondary">#B2FFFFFF</color> <!--B2 for %70 opacity-->
+    <color name="textLightDisabled">#80FFFFFF</color> <!--80 for %50 opacity-->
+    <color name="textLightDisabledDEPRECATED">#4CFFFFFF</color> <!--4C for %30 opacity-->
+
+    <color name="black_overlay">#66000000</color>
+</resources>
