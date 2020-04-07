@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="20dp"
+    android:background="#5280A2">
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/todoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Title"
+            android:textSize="25dp"
+            android:textColor="#80CDEC"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/todoSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Sub-Title"
+            android:textSize="18dp"
+            android:textColor="#80CDEC"
+            />
+        <TextView
+            android:id="@+id/todoTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tommorow"
+            android:textSize="18dp"
+            android:textColor="#80CDEC"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/setAlarmButton"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Set Alarm"
+            android:textSize="18dp"
+            android:background="#80CDEC"
+            android:onClick="SetAlarm"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

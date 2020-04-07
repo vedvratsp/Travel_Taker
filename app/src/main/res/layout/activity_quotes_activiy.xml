@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.QuotesActiviy">
+
+
+    <TextView
+        android:id="@+id/quotes_textView"
+        android:layout_width="338dp"
+        android:layout_height="359dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="62dp"
+        android:text="The man who follows the crowd will usually get no further than the crowd. The man who walks alone is likely to find himself in places no one has ever been before. – Alan Ashley-Pitt"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/previous_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share_button"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/next_button"
+        android:layout_width="148dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quotes_textView"
+        app:srcCompat="@mipmap/ic_next_button"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/previous_button"
+        android:layout_width="84dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="62dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quotes_textView"
+        app:srcCompat="@mipmap/ic_back_button"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/share_button"
+        android:layout_width="81dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="178dp"
+        app:layout_constraintEnd_toStartOf="@+id/heart_fav_off"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_share_button"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/heart_fav_off"
+        android:layout_width="108dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_heart_fav_off"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
