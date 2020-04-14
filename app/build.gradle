@@ -24,7 +24,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-//    manifestPlaceholders = [
+    //    manifestPlaceholders = [
 //            onesignal_app_id               : 'd341be2b-7348-4823-ac1a-422431b33af8',
 //            // Project number pulled from dashboard, local value is ignored.
 //            onesignal_google_project_number: 'REMOTE'
@@ -175,6 +175,14 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
     implementation 'com.squareup.okhttp3:okhttp:3.8.0'
+//fp
+    implementation "androidx.lifecycle:lifecycle-viewmodel:2.0.0"
+    androidTestImplementation 'androidx.test:rules:1.1.2-alpha01'
+    //implementation project(":fpscanner")
+    implementation 'in.arjsna:passcodeview:1.2.1'
+    implementation project(path: ':fpscanner')
+    compile project(path: ':fpscanner')
+
 
 }
 apply plugin: 'com.google.gms.google-services'

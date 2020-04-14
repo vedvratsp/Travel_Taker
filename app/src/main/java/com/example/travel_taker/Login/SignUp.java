@@ -57,13 +57,13 @@ public class SignUp extends AppCompatActivity {
                 final String birth = dob.getText().toString().trim();
                 final String mob = mobile.getText().toString().trim();
 
-                if (email.isEmpty()) {
-                    emailId.setError("Please enter E-mail");
+                if (email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+                    emailId.setError("Please Enter a valid email address");
                     emailId.requestFocus();
                     return;
                 }
-                if (name.isEmpty()) {
-                    password.setError("Please enter Name");
+                if (name.isEmpty()|| name.length() < 3) {
+                    password.setError("Please enter alteast 3 Character");
                     password.requestFocus();
                     return;
                 }
@@ -77,8 +77,8 @@ public class SignUp extends AppCompatActivity {
                     password.requestFocus();
                     return;
                 }
-                if (pwd.isEmpty()) {
-                    password.setError("Please enter Password");
+                if (pwd.isEmpty()|| pwd.length() < 4 || pwd.length() > 10) {
+                    password.setError("Please enter Password between 4 and 10 alphanumeric characters");
                     password.requestFocus();
                     return;
                 }

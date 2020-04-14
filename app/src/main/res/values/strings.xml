@@ -81,6 +81,11 @@
     <string name="action_back">Back</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_copy">Copy Link</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="about">About</string>
+    <string name="version_text">Version 1.0</string>
+    <string name="developed_by_text">Developed By: Vedvrat Singh Ranamdeep Kaur Nisha Tandel Deepshi </string>
 
 
     <string-array name="quotes">
@@ -123,4 +128,6 @@
 
     </string-array>
 
-</resources>
+<!--    fp-->
+
+    </resources>

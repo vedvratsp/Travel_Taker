@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':fpsupport', ':fpscanner'
 rootProject.name='Travel_Taker'
